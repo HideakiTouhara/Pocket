@@ -19,6 +19,7 @@
 		072442B61F8F90E3006404BB /* RNCachingURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 072442AF1F8F90E3006404BB /* RNCachingURLProtocol.m */; };
 		072442B71F8F90E3006404BB /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 072442B01F8F90E3006404BB /* search.png */; };
 		072442B91F8F91FA006404BB /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072442B81F8F91FA006404BB /* ListTableViewController.swift */; };
+		072442BC1F8FC127006404BB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 072442BB1F8FC127006404BB /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		072442B01F8F90E3006404BB /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
 		072442B11F8F90E3006404BB /* SwiftPocket-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftPocket-Bridging-Header.h"; sourceTree = "<group>"; };
 		072442B81F8F91FA006404BB /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		072442BB1F8FC127006404BB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				072442BC1F8FC127006404BB /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 			children = (
 				072442941F8F8DE8006404BB /* SwiftPocket2 */,
 				072442931F8F8DE8006404BB /* Products */,
+				072442BA1F8FC126006404BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,6 +97,14 @@
 				072442B81F8F91FA006404BB /* ListTableViewController.swift */,
 			);
 			path = SwiftPocket2;
+			sourceTree = "<group>";
+		};
+		072442BA1F8FC126006404BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				072442BB1F8FC127006404BB /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
