@@ -18,6 +18,7 @@
 		072442B51F8F90E3006404BB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 072442AD1F8F90E3006404BB /* Reachability.m */; };
 		072442B61F8F90E3006404BB /* RNCachingURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 072442AF1F8F90E3006404BB /* RNCachingURLProtocol.m */; };
 		072442B71F8F90E3006404BB /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 072442B01F8F90E3006404BB /* search.png */; };
+		072442B91F8F91FA006404BB /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072442B81F8F91FA006404BB /* ListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		072442AF1F8F90E3006404BB /* RNCachingURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCachingURLProtocol.m; sourceTree = "<group>"; };
 		072442B01F8F90E3006404BB /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
 		072442B11F8F90E3006404BB /* SwiftPocket-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftPocket-Bridging-Header.h"; sourceTree = "<group>"; };
+		072442B81F8F91FA006404BB /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				0724429E1F8F8DE8006404BB /* LaunchScreen.storyboard */,
 				072442A11F8F8DE8006404BB /* Info.plist */,
 				072442A71F8F90E3006404BB /* SwiftPocket2-Bridging-Header.h */,
+				072442B81F8F91FA006404BB /* ListTableViewController.swift */,
 			);
 			path = SwiftPocket2;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				072442981F8F8DE8006404BB /* ViewController.swift in Sources */,
 				072442B31F8F90E3006404BB /* NSString+Sha1.m in Sources */,
 				072442B61F8F90E3006404BB /* RNCachingURLProtocol.m in Sources */,
+				072442B91F8F91FA006404BB /* ListTableViewController.swift in Sources */,
 				072442B51F8F90E3006404BB /* Reachability.m in Sources */,
 				072442961F8F8DE8006404BB /* AppDelegate.swift in Sources */,
 			);
