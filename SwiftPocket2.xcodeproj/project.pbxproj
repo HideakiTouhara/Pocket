@@ -12,6 +12,12 @@
 		0724429B1F8F8DE8006404BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072442991F8F8DE8006404BB /* Main.storyboard */; };
 		0724429D1F8F8DE8006404BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0724429C1F8F8DE8006404BB /* Assets.xcassets */; };
 		072442A01F8F8DE8006404BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0724429E1F8F8DE8006404BB /* LaunchScreen.storyboard */; };
+		072442B21F8F90E3006404BB /* done.png in Resources */ = {isa = PBXBuildFile; fileRef = 072442A81F8F90E3006404BB /* done.png */; };
+		072442B31F8F90E3006404BB /* NSString+Sha1.m in Sources */ = {isa = PBXBuildFile; fileRef = 072442AA1F8F90E3006404BB /* NSString+Sha1.m */; };
+		072442B41F8F90E3006404BB /* NSString+Sha1.textClipping in Resources */ = {isa = PBXBuildFile; fileRef = 072442AB1F8F90E3006404BB /* NSString+Sha1.textClipping */; };
+		072442B51F8F90E3006404BB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 072442AD1F8F90E3006404BB /* Reachability.m */; };
+		072442B61F8F90E3006404BB /* RNCachingURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 072442AF1F8F90E3006404BB /* RNCachingURLProtocol.m */; };
+		072442B71F8F90E3006404BB /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 072442B01F8F90E3006404BB /* search.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,17 @@
 		0724429C1F8F8DE8006404BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0724429F1F8F8DE8006404BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		072442A11F8F8DE8006404BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072442A71F8F90E3006404BB /* SwiftPocket2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftPocket2-Bridging-Header.h"; sourceTree = "<group>"; };
+		072442A81F8F90E3006404BB /* done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = done.png; sourceTree = "<group>"; };
+		072442A91F8F90E3006404BB /* NSString+Sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Sha1.h"; sourceTree = "<group>"; };
+		072442AA1F8F90E3006404BB /* NSString+Sha1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Sha1.m"; sourceTree = "<group>"; };
+		072442AB1F8F90E3006404BB /* NSString+Sha1.textClipping */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "NSString+Sha1.textClipping"; sourceTree = "<group>"; };
+		072442AC1F8F90E3006404BB /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		072442AD1F8F90E3006404BB /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		072442AE1F8F90E3006404BB /* RNCachingURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCachingURLProtocol.h; sourceTree = "<group>"; };
+		072442AF1F8F90E3006404BB /* RNCachingURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCachingURLProtocol.m; sourceTree = "<group>"; };
+		072442B01F8F90E3006404BB /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		072442B11F8F90E3006404BB /* SwiftPocket-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftPocket-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +71,23 @@
 		072442941F8F8DE8006404BB /* SwiftPocket2 */ = {
 			isa = PBXGroup;
 			children = (
+				072442A81F8F90E3006404BB /* done.png */,
+				072442A91F8F90E3006404BB /* NSString+Sha1.h */,
+				072442AA1F8F90E3006404BB /* NSString+Sha1.m */,
+				072442AB1F8F90E3006404BB /* NSString+Sha1.textClipping */,
+				072442AC1F8F90E3006404BB /* Reachability.h */,
+				072442AD1F8F90E3006404BB /* Reachability.m */,
+				072442AE1F8F90E3006404BB /* RNCachingURLProtocol.h */,
+				072442AF1F8F90E3006404BB /* RNCachingURLProtocol.m */,
+				072442B01F8F90E3006404BB /* search.png */,
+				072442B11F8F90E3006404BB /* SwiftPocket-Bridging-Header.h */,
 				072442951F8F8DE8006404BB /* AppDelegate.swift */,
 				072442971F8F8DE8006404BB /* ViewController.swift */,
 				072442991F8F8DE8006404BB /* Main.storyboard */,
 				0724429C1F8F8DE8006404BB /* Assets.xcassets */,
 				0724429E1F8F8DE8006404BB /* LaunchScreen.storyboard */,
 				072442A11F8F8DE8006404BB /* Info.plist */,
+				072442A71F8F90E3006404BB /* SwiftPocket2-Bridging-Header.h */,
 			);
 			path = SwiftPocket2;
 			sourceTree = "<group>";
@@ -97,6 +125,7 @@
 					072442911F8F8DE8006404BB = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = QG4UUMT2SM;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,6 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				072442A01F8F8DE8006404BB /* LaunchScreen.storyboard in Resources */,
+				072442B71F8F90E3006404BB /* search.png in Resources */,
+				072442B41F8F90E3006404BB /* NSString+Sha1.textClipping in Resources */,
+				072442B21F8F90E3006404BB /* done.png in Resources */,
 				0724429D1F8F8DE8006404BB /* Assets.xcassets in Resources */,
 				0724429B1F8F8DE8006404BB /* Main.storyboard in Resources */,
 			);
@@ -138,6 +170,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				072442981F8F8DE8006404BB /* ViewController.swift in Sources */,
+				072442B31F8F90E3006404BB /* NSString+Sha1.m in Sources */,
+				072442B61F8F90E3006404BB /* RNCachingURLProtocol.m in Sources */,
+				072442B51F8F90E3006404BB /* Reachability.m in Sources */,
 				072442961F8F8DE8006404BB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,11 +296,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = QG4UUMT2SM;
 				INFOPLIST_FILE = SwiftPocket2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-HideakiTouhara.SwiftPocket2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftPocket2/SwiftPocket2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,11 +312,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = QG4UUMT2SM;
 				INFOPLIST_FILE = SwiftPocket2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-HideakiTouhara.SwiftPocket2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftPocket2/SwiftPocket2-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
